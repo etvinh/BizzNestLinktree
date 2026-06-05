@@ -8,9 +8,8 @@ it('renders without crashing', () => {
 
 it('renders Ethan Vinh', () => {
   render(<App />)
-  expect(screen.getByText('Ethan Vinh')).toBeInTheDocument()
+  expect(screen.getByRole('heading', { name: 'Ethan Vinh' })).toBeInTheDocument()
 })
-
 
 it('renders link buttons with correct URLs', () => {
   render(<App />)
