@@ -12,7 +12,6 @@ export default defineConfig({
         'test/*',
         'src/main.jsx',
         'vite.config.js',
-        'App.css',
       ],
     },
   },
