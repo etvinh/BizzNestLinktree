@@ -1,0 +1,22 @@
+{
+  "name": "ethans-links",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Linktree-style site built with React and Vite",
+  "author": "Ethan Vinh",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/etvinh/BizzNestLinktree.git",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*",
+    "vite": "*"
+  }
+}
