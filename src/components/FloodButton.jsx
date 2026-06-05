@@ -13,6 +13,7 @@ function FloodButton({ label = "[ DECODE ]", duration = 3000 }) {
     timerRef.current = setTimeout(() => setActive(false), duration);
   };
 
+  // cleanup on unmount
   useEffect(() => () => clearTimeout(timerRef.current), []);
 
   return (
