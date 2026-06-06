@@ -10,7 +10,8 @@
     "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run --coverage"
+    "test": "vitest run --coverage",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "*",
@@ -21,7 +22,10 @@
     "@testing-library/react": "*",
     "@testing-library/user-event": "^14.6.1",
     "@vitejs/plugin-react": "*",
+    "@eslint/js": "*",
     "@vitest/coverage-v8": "*",
+    "eslint": "*",
+    "eslint-plugin-react-hooks": "*",
     "jsdom": "*",
     "vite": "*",
     "vitest": "*"

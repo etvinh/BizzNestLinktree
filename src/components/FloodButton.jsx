@@ -4,6 +4,7 @@ import BinaryFlood from "./BinaryFlood.jsx";
 function FloodButton({ label = "[ DECODE ]", duration = 3000 }) {
   const [triggerCount, setTriggerCount] = useState(0);
   const [active, setActive] = useState(false);
+  // use timer ref to reset timer on click
   const timerRef = useRef(null);
 
   const triggerFlood = () => {
