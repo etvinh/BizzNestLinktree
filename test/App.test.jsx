@@ -15,5 +15,5 @@ it('renders link buttons with correct URLs', () => {
   render(<App />)
   expect(screen.getByRole('link', { name: 'LinkedIn' })).toHaveAttribute('href', 'https://www.linkedin.com/in/etvinh')
   expect(screen.getByRole('link', { name: 'GitHub' })).toHaveAttribute('href', 'https://github.com/etvinh')
-  expect(screen.getByRole('link', { name: 'Resume' })).toHaveAttribute('href', '/resume.pdf')
+  expect(screen.getByRole('link', { name: 'Resume' })).toHaveAttribute('href', '/src/assets/resume.pdf')
 })
